@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 80%;
+    max-width: 600px; /* Added to set a maximum width */
+    overflow: hidden; /* Ensures content stays within bounds */
+}
+
+h1 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+#quote-container {
+    margin-bottom: 2em;
+    word-wrap: break-word; /* Ensures long words break and wrap */
+}
+
+#quote {
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: 400;
+}
+
+#author {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+    color: #ddd;
+}
+
+#new-quote {
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8c00;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#new-quote:hover {
+    background-color: #e07c00;
+}
+
